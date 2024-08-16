@@ -273,7 +273,7 @@ img {
   text-align: center;
   max-width: auto;
   max-height: 2900px;
-  border: 2px solid red;
+  gap: 12px;
 }
 
 .training-section-image-container {
@@ -285,4 +285,45 @@ img {
   height: 200px;
   width: 200px;
   flex: 1;
+}
+.BMI-calcuator {
+  max-width: 900px;
+  min-height: 500px;
+  margin: 30px auto;
+  gap: 22px;
+  background-color: rgba(34, 34, 34, 1);
+}
+.BMI-table {
+  border: 3px solid gray;
+  border-collapse: collapse;
+  margin: 30px auto;
+  text-align: center;
+}
+.BMI-table th {
+  padding: 13px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.BMI-table td {
+  padding: 15px 22px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: normal;
+}
+.calculator-form  input{
+  border: none;
+  padding-left: 12px;
+  max-width: 490px;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.60);
+  background-color:  rgba(255, 255, 255, 0.10);
+}
+.calculator-form select {
+  border: none;
+  padding-left: 12px;
+  max-width: 490px;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.60);
+  background-color:  rgba(255, 255, 255, 0.10);
 }
