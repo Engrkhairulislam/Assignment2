@@ -1,0 +1,288 @@
+/* add google font from google font  start */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.inter-normal-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* add google font from google font end */
+
+body {
+  background-color: #000000;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/* shared style */
+.text-align-left {
+  text-align: left;
+  align-items: left;
+}
+.primary-color {
+  color: #e6533c;
+}
+.display-flex {
+  display: flex;
+}
+
+.header-style {
+  background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+}
+.btn-primary {
+  border-radius: 42px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 140px;
+  height: 40px;
+  padding: 12px, 25px, 12px, 25px;
+  margin: 0px 6px;
+  border-radius: 42px;
+  background-color: rgb(230, 83, 60);
+  color: #ffffff;
+}
+
+.btn-bg-black {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 140px;
+  height: 40px;
+  padding: 12px, 25px, 12px, 25px;
+  margin: 0px 6px;
+  border-radius: 42px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.section-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255);
+}
+.section-description {
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* navBar related style start */
+.navBar {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+.nav-link {
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 1);
+}
+.brand-text {
+  font-style: italic;
+  font-size: 2.6rem;
+  color: rgba(230, 83, 60, 1);
+}
+.home-button {
+  padding: 10px 12px;
+  border-radius: 3rem;
+  background-color: rgba(230, 83, 60, 1);
+}
+/* navBar related style end */
+
+/* banner section design start */
+.banner {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 97px;
+  margin: 20px auto;
+  max-width: 800px;
+  max-height: 710px;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+.banner-content {
+  text-align: center;
+  align-items: center;
+  flex: 1;
+}
+.banner-title {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: left;
+  color: rgba(255, 255, 255);
+}
+.shape-text {
+  font-family: "Miama", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgba(255, 255, 255);
+}
+.banner-image-container {
+  width: 350px;
+  height: 580px;
+  position: relative;
+  flex: 1;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.rectangle-workout {
+  position: absolute;
+  width: 193px;
+  height: 98px;
+  left: 190px;
+  top: 85px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.rectangle-video-ttorial {
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 193px;
+  height: 98px;
+  left: -89px;
+  bottom: 75px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+.red-cycle {
+  width: 40px;
+  height: 40px;
+  padding-left: 20px;
+}
+.rectangle-title {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgba(255, 255, 255);
+}
+
+.rectangle-description {
+  margin-left: 18px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.65);
+}
+/* banner section design end */
+
+/* change your habit sections design start */
+.change-habit-section {
+  max-width: 900px;
+  max-height: 600px;
+  text-align: center;
+  align-items: center;
+  margin: 55px auto;
+}
+
+.habit-section-card {
+  width: 231px;
+  height: 273px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+}
+.change-bait-section-image-container {
+  max-width: 900px;
+  max-height: auto;
+}
+.change-bait-section-image-container img {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+}
+/* change your habit sections design end */
+
+/* run extra mile section start */
+.run-extra-mile-section {
+  max-width: 900px;
+  height: 350px;
+  background-color: rgba(34, 34, 34, 1);
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+}
+
+.run-extra-mile {
+  align-items: center;
+  justify-content: center;
+  margin: 23px 33px;
+  gap: 44px;
+}
+.extra-mile-easily {
+  align-items: center;
+  text-align: center;
+}
+.run-extra-mile img {
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+/* run extra mile section stop */
+
+/* supperSection */
+.supperSection {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: auto;
+  max-height: 2900px;
+  border: 2px solid red;
+}
+
+.training-section-image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+}
+.training-section-image-container img {
+  height: 200px;
+  width: 200px;
+  flex: 1;
+}
